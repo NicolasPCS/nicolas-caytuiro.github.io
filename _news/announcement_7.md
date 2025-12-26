@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-**Topic:** *Digital Repair of Archaeological Objects Using Cross-Attention and Noise on Point Clouds*
+**Topic:** *Digital Repair of Archaeological Objects Using Cross-Attention and Noise on Point Clouds* 
 
 ---
 
