@@ -1,33 +1,24 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Isaac Aguirre's Thesis Presentation
+date: 2025-06-24 13:00:00-0400
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+<b>Title</b>: <i>Enhancing Feature Backprojection for Robust 3D Symmetry Detection</i>
 
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+<b>Abstract</b>: La visión computacional y el Aprendizaje profundo han revolucionado la forma en las que las máquinas interpretan información visual. En el análisis de objetos 3D, la información del objeto está codificada como vectores de números, usualmente llamados descriptores, que capturan la geometría, patrones o texturas del objeto de la misma forma como los humanos perciben estas características a simple vista.
+La detección de simetrías es una tarea específica en la que mediante descriptores es posible detectar usando algoritmos o inteligencia artificial planos de simetrías en objetos 3D. Actualmente existe un método llamado retroproyección de características de imágenes o Feature Backprojection (FBP), el cual consiste en la captura de imágenes alrededor de un objeto 3D a las cuales mediante una red neuronal de visión computacional se les calculan descriptores que luego se envían de vuelta a la superficie del objeto.
+En el trabajo se proponen mejoras a la metodología de FBP, como lo son distribuir de forma más uniforme los puntos de captura de imágenes al objeto 3D, como también la rotación de estas imágenes para, de esta forma, obtener descriptores más robustos para la detección de simetrías. La finalidad es utilizar estos nuevos descriptores para detectar simetrías planares y axiales tanto para objetos normales como para objetos con alguna transformación geométrica, como lo son rotaciones, adición de ruido u extracción de partes.
 
-#### Hipster list
+---
+
+#### Details
 
 <ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
+    <li><b>Room</b>: Ada Lovelace, West Building</li>
+    <li><b>Date</b>: Friday the 27th at 12:00 PM</li>
 </ul>
-
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
-
----
-
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.

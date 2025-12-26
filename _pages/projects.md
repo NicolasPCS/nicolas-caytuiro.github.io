@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Our research projects focused on Shape Analysis, 3D Computer Vision, and Geometry Processing.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 4
+display_categories: [Founded] # work, fun
 horizontal: false
 ---
 

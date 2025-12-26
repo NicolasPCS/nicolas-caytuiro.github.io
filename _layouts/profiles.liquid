@@ -1,36 +1,68 @@
 ---
 layout: page
 ---
-<div class="post">
-  <article>
-    {% if page.profiles %}
-      {% for profile in page.profiles %}
-        <hr>
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-          {% if profile.image %}
-            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-            {% if profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-            {% endif %}
-            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
-          {% endif %}
-          {% if profile.more_info %}
-            <div class="more-info">{{ profile.more_info }}</div>
-          {% endif %}
-        </div>
 
-        <div class="clearfix">
-          {% if profile.content %}
-            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
-          {% else %}
-            {{ content }}
-          {% endif %}
-        </div>
-      {% endfor %}
+<style>
+.icon-link {
+  transition: transform 0.2s ease;
+  display: inline-block;
+  color: inherit;
+}
+
+.icon-link:hover {
+  transform: scale(1.1);
+}
+</style>
+
+<div class="container">
+  {% for section in page.sections %}
+    <h2 class="text-center my-5">{{ section.title }}</h2>
+
+    {% if section.people %}
+      <div class="row justify-content-center">
+        {% for person in section.people %}
+          <div class="col-md-3 col-sm-6 text-center mb-4">
+            <img src="{{ '/assets/img/' | append: person.image }}" alt="{{ person.name }}" class="rounded-circle" style="width:140px; height:140px; object-fit:cover;">
+            <h5 class="mt-3" style="color:#0074d9;">{{ person.name }}</h5>
+            <p class="text-muted small">{{ person.role }}</p>
+            <div class="my-1">
+              {% for icon in person.icons %}
+                {% assign type = icon[0] %}
+                {% assign url = icon[1] %}
+                {% if type == 'mail' %}
+                  <a href="mailto:{{ url }}" class="icon-link me-2">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                {% else %}
+                  <a href="{{ url }}" target="_blank" class="icon-link me-2">
+                    <i class="{{ type | replace: '-', ' fa-' }} mx-1"></i>
+                  </a>
+                {% endif %}
+              {% endfor %}
+            </div> 
+            <p class="small">{{ person.description }}</p>
+          </div>
+        {% endfor %}
+      </div>
     {% endif %}
-  </article>
+
+    {% if section.master_alumni %}
+      <h3 class="mt-4">M.Sc. Alumni</h3>
+      <ul>
+        {% for entry in section.master_alumni %}
+          <li>{{ entry }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if section.undergraduate_alumni %}
+      <h3 class="mt-4">Undergraduate Alumni</h3>
+      <ul>
+        {% for entry in section.undergraduate_alumni %}
+          <li>{{ entry }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+  {% endfor %}
 </div>

@@ -125,7 +125,7 @@ ninja.data = [
           {%- capture social_url %}"https://discord.com/users/{{ social[1] }}"{% endcapture -%}
         {%- when "email" -%}
           {%- assign social_id = "social-email" -%}
-          {%- assign social_title = "email" -%}
+          {%- assign social_title = "Email" -%}
           {%- capture social_url %}"mailto:{{ social[1] | encode_email }}"{% endcapture -%}
         {%- when "facebook_id" -%}
           {%- assign social_id = "social-facebook" -%}
@@ -241,7 +241,7 @@ ninja.data = [
           {%- capture social_url %}"https://www.strava.com/athletes/{{ social[1] }}"{% endcapture -%}
         {%- when "telegram_username" -%}
           {%- assign social_id = "social-telegram" -%}
-          {%- assign social_title = "telegram" -%}
+          {%- assign social_title = "Telegram" -%}
           {%- capture social_url %}"https://telegram.me/{{ social[1] }}"{% endcapture -%}
         {%- when "unsplash_id" -%}
           {%- assign social_id = "social-unsplash" -%}
