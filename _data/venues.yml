@@ -1,9 +1,8 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"Preprint":
+  color: "#009f36"   # verde académico (bien elegido)
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Journal":
+  color: "#00369f"   # azul profundo (bien elegido)
 
-"Vision":
-  color: "#009f36"
+"Conference":
+  color: "#9f2b00"   # rojo académico / terracota

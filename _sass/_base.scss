@@ -396,14 +396,17 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Social (bottom)
-
 .social {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
 
     a {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+
       img {
         width: 3.2rem;
         height: 3.2rem;
@@ -433,12 +436,38 @@ ul.task-list input[type="checkbox"] {
           color: var(--global-theme-color);
         }
       }
+
+      &::after {
+        content: attr(title);
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+        font-size: 0.65rem;
+        line-height: 1;
+        color: var(--global-text-color-light);
+      }
+
+      &:hover::after {
+        color: var(--global-theme-color);
+      }
     }
   }
 
   .contact-note {
     font-size: 0.8rem;
   }
+}
+
+/* Vertical separator after Email */
+.social .contact-icons a[title="Email"] {
+  position: relative;
+  margin-right: 1.6rem;
+}
+
+/* Vertical separator after Email */
+.social .contact-icons a[title="Email"] {
+  padding-right: 1.2rem;
+  margin-right: 1.2rem;
+  border-right: 1px solid var(--global-text-color-light);
 }
 
 .wechat-modal {

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We are excited to announce the official launch of the **Shape Vision Lab website** 🚀!
+We are excited to announce the official launch of the [**Shape Vision Lab website**](https://shapevision.dcc.uchile.cl/) 🚀!

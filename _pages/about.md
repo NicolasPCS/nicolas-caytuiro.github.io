@@ -2,16 +2,16 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Affiliations. University of Chile, National Center for Artificial Intelligence (CENIA)
+subtitle: <strong>Affiliations:</strong> University of Chile, National Center for Artificial Intelligence (CENIA)
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: prof_pic_nico.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Av. Beauchef 851</p>
+    <p>Av. Beaucheff 851</p>
     <p>8370458 Santiago, Chile</p>
-    <p>West Building 314, 304</p>
+    <p>West Building 208</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,10 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome to the **Shape Vision Lab** at the University of Chile.
+I am developing a symmetry-aware framework for 3D generative models.
 
-We are a research group dedicated to exploring the geometric and visual properties of 3D data. Our work lies at the intersection of `shape analysis`, `3D computer vision`, and `geometry processing`. We investigate both theoretical foundations and practical applications, from symmetry-aware learning to generative models for 3D shapes.
+**Current focus:** 3D generative models and geometry processing.
 
-Our team includes undergraduate and graduate students, as well as collaborators from academia and industry. Together, we tackle problems in object recognition, generative modeling, cultural heritage reconstruction, and more.
+I am a second-year Computer Science PhD student at the University of Chile, advised by [Ivan Sipiran](https://www.ivan-sipiran.com/) (He is super nice!). My research focuses on `deep learning` and `3D computer vision`, particularly generative models and their applications. Currently, I am working on preserving structural priors in `3D generative models`, specifically `symmetry`. 
 
-Feel free to explore our ongoing `projects`, `publications`, and `student theses`. We are always open to new collaborations and ideas—whether you're a student, researcher, or industry partner interested in the 3D world.
+I am the co-founder of the [Shape Vision Lab](https://shapevision.dcc.uchile.cl/) at the University of Chile and an affiliated PhD student at the [National Center for Artificial Intelligence CENIA](https://cenia.cl/), Santiago, Chile.

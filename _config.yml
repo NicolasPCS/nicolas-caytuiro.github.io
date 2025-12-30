@@ -2,23 +2,25 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Shape Vision Lab # the website title (if blank, full name will be used instead)
-first_name: Shape
-middle_name: Vision
-last_name: Lab
+title: Nicolas Caytuiro # the website title (if blank, full name will be used instead)
+first_name: Nicolas
+middle_name: Esleyder
+last_name: Caytuiro Silva
 contact_note: >
-  For collaborations, project inquiries, or student opportunities, feel free to reach us via email.
+  I am open to research collaborations, academic discussions, and student supervision opportunities.
+  Please feel free to contact me via email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Exploring 3D shapes through computer vision, geometry processing, and symmetry-aware generative models.
+  My research focuses on 3D Computer Vision and geometry-aware learning, with particular interest in
+  symmetry-aware generative models.
 footer_text: #>
   #Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   #Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   #Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: Shape Analysis, 3D Computer Vision, Geometry Processing # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: Icon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🧊 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://shapevision.dcc.uchile.cl # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -50,7 +52,7 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
-posts_in_search: true
+posts_in_search: false
 bib_search: true
 
 # Dimensions
@@ -86,7 +88,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Shape Vision Lab # blog_name will be displayed in your blog page
+blog_name: Nicolas Caytuiro # blog_name will be displayed in your blog page
 blog_description: Exploring 3D geometry and vision through academic research and collaboration.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -115,7 +117,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: shape-vision-lab # put your disqus shortname
+disqus_shortname: nicolas-caytuiro # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -263,8 +265,8 @@ display_tags: ["Shape Analysis", "3D Computer Vision", "Geometry Processing"] # 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Sipiran]
-  first_name: [Iván]
+  last_name: [Caytuiro, Caytuiro-Silva]
+  first_name: [Nicolas]
 
   style: apa
   locale: en

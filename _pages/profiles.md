@@ -3,7 +3,7 @@ layout: profiles
 permalink: /members/
 title: Members
 #description: Meet our Team
-nav: true
+nav: false
 nav_order: 2
 
 sections:

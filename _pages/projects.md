@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Our research projects focused on Shape Analysis, 3D Computer Vision, and Geometry Processing.
+description: Selected Past Projects.
 nav: true
 nav_order: 4
-display_categories: [Founded] # work, fun
+display_categories: [Lead Researcher, Research Assistant] # work, fun
 horizontal: false
 ---
 
